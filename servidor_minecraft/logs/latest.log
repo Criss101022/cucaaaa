@@ -1,22 +1,46 @@
-[00:19:25] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.9
-[00:19:25] [main/INFO]: Fabric is preparing JARs on first launch, this may take a few seconds...
-[00:19:25] [main/INFO]: Loading 4 mods:
-	- fabricloader 0.16.9
+[01:57:33] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.3
+[01:57:33] [main/INFO]: Loading 4 mods:
+	- fabricloader 0.16.3
 	   \-- mixinextras 0.4.1
 	- java 21
 	- minecraft 1.21
-[00:19:25] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/cuca/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[00:19:26] [main/ERROR]: Failed to start the minecraft server
-joptsimple.UnrecognizedOptionException: m is not a recognized option
-	at knot/joptsimple.OptionException.unrecognizedOption(OptionException.java:108) ~[jopt-simple-5.0.4.jar:?]
-	at knot/joptsimple.OptionParser.validateOptionCharacters(OptionParser.java:633) ~[jopt-simple-5.0.4.jar:?]
-	at knot/joptsimple.OptionParser.handleShortOptionCluster(OptionParser.java:528) ~[jopt-simple-5.0.4.jar:?]
-	at knot/joptsimple.OptionParser.handleShortOptionToken(OptionParser.java:523) ~[jopt-simple-5.0.4.jar:?]
-	at knot/joptsimple.OptionParserState$2.handleArgument(OptionParserState.java:59) ~[jopt-simple-5.0.4.jar:?]
-	at knot/joptsimple.OptionParser.parse(OptionParser.java:396) ~[jopt-simple-5.0.4.jar:?]
-	at knot/net.minecraft.server.Main.main(Main.java:89) [server-intermediary.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.9.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.9.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.9.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.9.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
+[01:57:33] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/cucaaaa/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[01:57:40] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:57:41] [main/INFO]: No existing world data, creating new world
+[01:57:42] [main/INFO]: Loaded 1290 recipes
+[01:57:42] [main/INFO]: Loaded 1399 advancements
+[01:57:42] [Server thread/INFO]: Starting minecraft server version 1.21
+[01:57:42] [Server thread/INFO]: Loading properties
+[01:57:42] [Server thread/INFO]: Default game type: SURVIVAL
+[01:57:42] [Server thread/INFO]: Generating keypair
+[01:57:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:57:42] [Server thread/INFO]: Using epoll channel type
+[01:57:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:57:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:57:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:57:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:57:42] [Server thread/INFO]: Preparing level "world"
+[01:57:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:57:49] [Worker-Main-3/INFO]: Preparing spawn area: 2%
+[01:57:50] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[01:57:50] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[01:57:50] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[01:57:51] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[01:57:51] [Worker-Main-2/INFO]: Preparing spawn area: 18%
+[01:57:52] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[01:57:52] [Worker-Main-2/INFO]: Preparing spawn area: 51%
+[01:57:53] [Worker-Main-1/INFO]: Preparing spawn area: 51%
+[01:57:53] [Worker-Main-2/INFO]: Preparing spawn area: 55%
+[01:57:54] [Server thread/INFO]: Time elapsed: 4609 ms
+[01:57:54] [Server thread/INFO]: Done (11.085s)! For help, type "help"
+[01:58:04] [Server thread/INFO]: Stopping the server
+[01:58:04] [Server thread/INFO]: Stopping server
+[01:58:04] [Server thread/INFO]: Saving players
+[01:58:04] [Server thread/INFO]: Saving worlds
+[01:58:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:58:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01:58:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01:58:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:58:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:58:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:58:06] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
