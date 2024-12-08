@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:netherrack"
+    },
+    "B": {
+      "tag": "obs:warped"
+    }
+  },
+  "result": {
+    "id": "minecraft:warped_nylium",
+    "count": 8
+  }
+}

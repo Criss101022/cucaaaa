@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "pattern": [
+    " D ",
+    "AAA",
+    "BCB"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:sculk"
+    },
+    "B": {
+      "item": "minecraft:bone"
+    },
+    "C": {
+      "item": "minecraft:bone_block"
+    },
+    "D": {
+      "item": "minecraft:ghast_tear"
+    }
+  },
+  "result": {
+    "id": "minecraft:sculk_catalyst"
+  }
+}

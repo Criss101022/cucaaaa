@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "pattern": [
+    "CC",
+    "CC"
+  ],
+  "key": {
+    "C": {
+      "tag": "obs:bubble_coral"
+    }
+  },
+  "result": {
+    "id": "minecraft:bubble_coral_block"
+  }
+}

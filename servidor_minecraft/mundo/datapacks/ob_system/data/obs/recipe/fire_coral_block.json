@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "pattern": [
+    "CC",
+    "CC"
+  ],
+  "key": {
+    "C": {
+      "tag": "obs:fire_coral"
+    }
+  },
+  "result": {
+    "id": "minecraft:fire_coral_block"
+  }
+}
